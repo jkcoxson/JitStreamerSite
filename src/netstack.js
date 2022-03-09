@@ -1,0 +1,5 @@
+// jkcoxson
+
+export function getSomething() {
+    //
+}
