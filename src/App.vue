@@ -13,7 +13,6 @@ import JitStore from './components/JitStore.vue';
 import UploadUdid from './components/UploadUdid.vue';
 
 let NetStack = require('./netstack.js');
-// const axios = require('axios');
 
 export default {
     name: 'App',
@@ -25,30 +24,8 @@ export default {
     },
     beforeCreate() {
         console.log('Starting JitStreamer...');
-        console.log('Connecting to websocket...');
-        this.connected = false;
-        this.validIp = false;
-        this.validUdid = false;
-        NetStack.getSomething();
-        // Send a post request to the server to check the status of the IP
-        // axios
-        //     .post('/status/')
-        //     .then(function (response) {
-        //         console.log(response);
-        //         if (response.data.status === 'success') {
-        //             console.log('Connected to websocket!');
-        //             this.connected = true;
-        //         } else {
-        //             console.log('Not connected to websocket!');
-        //             this.connected = false;
-        //         }
-        //     })
-        //     .catch(function (error) {
-        //         console.log(error);
-        //     });
-        setTimeout(() => {
-            this.connected = true;
-        }, 3000);
+
+        NetStack.status(this);
     },
     data() {
         return {
