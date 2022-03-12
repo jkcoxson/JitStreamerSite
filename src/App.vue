@@ -51,9 +51,11 @@ img {
     border-radius: 200px;
 }
 footer {
+    position: absolute;
     margin: 10px 0;
     text-align: center;
     font-size: 12px;
     color: darkblue;
+    bottom: 5px;
 }
 </style>

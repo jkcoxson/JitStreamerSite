@@ -18,7 +18,16 @@
             JitStreamer Discord server.
         </p>
 
-        <footer>Copyright © 2022 Jackson Coxson</footer>
+        <footer>
+            Copyright © 2022 Jackson Coxson
+            <a
+                href="https://discord.gg/WsT2hcwRVy"
+                target="_blank"
+                rel="nooper"
+            >
+                Discord Server</a
+            >
+        </footer>
     </div>
 </template>
 

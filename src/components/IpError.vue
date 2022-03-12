@@ -31,7 +31,16 @@
         <p>Open ZeroTier and enter af415e486fab772d to join the VLAN.</p>
         <h3>2. (Optional) Modify the DNS</h3>
         <p>Change the DNS settings in ZeroTier to 69.69.0.1</p>
-        <footer>Copyright © 2022 Jackson Coxson</footer>
+        <footer>
+            Copyright © 2022 Jackson Coxson
+            <a
+                href="https://discord.gg/WsT2hcwRVy"
+                target="_blank"
+                rel="nooper"
+            >
+                Discord Server</a
+            >
+        </footer>
     </div>
 </template>
 
