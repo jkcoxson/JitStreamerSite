@@ -10,6 +10,13 @@
                 <button class="btn btn-success btn-block btn-lg">Upload</button>
             </div>
         </form>
+        <h3>Instructions</h3>
+        <p>
+            To register your device, you must first upload a pairing file. To
+            get this pairing file, you will need to use JitterBugPair. You can
+            find more information on JitterBug's GitHub readme, or the
+            JitStreamer Discord server.
+        </p>
 
         <footer>Copyright © 2022 Jackson Coxson</footer>
     </div>
