@@ -52,10 +52,9 @@ img {
 }
 footer {
     position: absolute;
-    margin: 10px 0;
+    margin: 0px 0;
     text-align: center;
     font-size: 12px;
     color: darkblue;
-    bottom: 5px;
 }
 </style>
