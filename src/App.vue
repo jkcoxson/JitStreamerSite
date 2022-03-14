@@ -1,26 +1,31 @@
 <template>
+    <!--
     <div v-if="!this.connected"><LoadingScreen /></div>
     <div v-else-if="!this.validIp"><IpError /></div>
     <div v-else-if="!this.validUdid"><UploadUdid /></div>
     <div v-else><JitStore /></div>
+    -->
+    <div><Setup />></div>
 </template>
 
 <script>
 // That moment when you literally have 3 different comment syntaxes...
-import IpError from './components/IpError.vue';
-import LoadingScreen from './components/LoadingScreen.vue';
-import JitStore from './components/JitStore.vue';
-import UploadUdid from './components/UploadUdid.vue';
+// import IpError from './components/IpError.vue';
+// import LoadingScreen from './components/LoadingScreen.vue';
+// import JitStore from './components/JitStore.vue';
+// import UploadUdid from './components/UploadUdid.vue';
+import Setup from './components/Setup.vue';
 
 let NetStack = require('./netstack.js');
 
 export default {
     name: 'App',
     components: {
-        IpError,
-        LoadingScreen,
-        JitStore,
-        UploadUdid,
+        // IpError,
+        // LoadingScreen,
+        // JitStore,
+        // UploadUdid,
+        Setup,
     },
     beforeCreate() {
         console.log('Starting JitStreamer...');
