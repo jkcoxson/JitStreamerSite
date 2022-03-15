@@ -25,7 +25,13 @@
         </p>
         <p>
             Download the shortcut from
-            <a href="todo" target="_blank" rel="nooper"> here</a>.
+            <a
+                href="https://www.icloud.com/shortcuts/708e9151c0d548c0b5c79f5cddf58caf"
+                target="_blank"
+                rel="nooper"
+            >
+                here</a
+            >.
         </p>
         <h3>3. Generate your pairing file</h3>
         <p>Note: you'll only need to generate this file once.</p>
