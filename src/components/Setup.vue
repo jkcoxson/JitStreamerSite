@@ -17,7 +17,7 @@
             >
             from the App Store
         </p>
-        <p>Open ZeroTier and enter af415e486fab772d to join the VLAN.</p>
+        <p>Open ZeroTier and enter 017c0c264be7ec5b to join the VLAN.</p>
         <h3>2. Download the shortcut</h3>
         <p>
             Note: if you haven't ever created one of your own shortcuts, you
