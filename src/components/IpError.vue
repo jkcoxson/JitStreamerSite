@@ -16,7 +16,7 @@
             instead.
         </p>
         <br />
-        <h3>1. Connect to the VLAN</h3>
+        <h3>Connect to the VLAN</h3>
         <p>
             Install
             <a
@@ -29,8 +29,6 @@
             from the App Store
         </p>
         <p>Open ZeroTier and enter af415e486fab772d to join the VLAN.</p>
-        <h3>2. (Optional) Modify the DNS</h3>
-        <p>Change the DNS settings in ZeroTier to 69.69.0.1</p>
         <footer>
             Copyright © 2022 Jackson Coxson
             <a

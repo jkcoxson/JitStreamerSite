@@ -8,7 +8,7 @@ const axios = require('axios');
 export function status(context) {
     // Send a post request to the server.
     axios
-        .post('/status/')
+        .get('/status/')
         .then(function (response) {
             // Parse the response as JSON.
             console.log(response);

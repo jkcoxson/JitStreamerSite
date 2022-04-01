@@ -26,7 +26,7 @@
         <p>
             Download the shortcut from
             <a
-                href="https://www.icloud.com/shortcuts/708e9151c0d548c0b5c79f5cddf58caf"
+                href="http://shortcut.jitstreamer.com"
                 target="_blank"
                 rel="nooper"
             >
@@ -53,13 +53,14 @@
         </p>
         <h3>4. Profit!</h3>
         <p>
+            You must be connected to WiFi when interfacing with JitStreamer.
             Once connected to the VLAN, run the shortcut you downloaded. It will
             ask for your pairing file. Need help? Join the Discord server.
         </p>
         <footer>
             Copyright © 2022 Jackson Coxson
             <a
-                href="https://discord.gg/WsT2hcwRVy"
+                href="http://discord.jitstreamer.com"
                 target="_blank"
                 rel="nooper"
             >
