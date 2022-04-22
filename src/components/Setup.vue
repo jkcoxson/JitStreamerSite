@@ -1,6 +1,6 @@
 <template>
     <div class="main">
-        <img alt="AltStream Logo" src="../assets/logo.png" width="300" />
+        <img alt="JitStream Logo" src="../assets/logo-smol.png" width="300" />
         <br />
         <h1>Welcome to JitStreamer!</h1>
         <p>To get connected to the network, you must follow these steps</p>
@@ -31,25 +31,21 @@
                 rel="nooper"
             >
                 here</a
-            >.
+            >. Note: you must be on iOS 15 or higher to use the shortcut.
         </p>
         <h3>3. Generate your pairing file</h3>
         <p>Note: you'll only need to generate this file once.</p>
         <p>
             Grab a computer and download
             <a
-                href="https://github.com/osy/Jitterbug/releases/"
+                href="https://github.com/jkcoxson/JitStreamer/releases/"
                 target="_blank"
                 rel="nooper"
             >
-                Jitterbug Pair</a
+                the pair program</a
             >
-            for your computer's OS. Give it a run and follow the onscreen
-            instructions.
-        </p>
-        <p>
-            Transfer your pairing file to your iDevice and be prepared to select
-            it with the shortcut
+            for your computer's OS. Run the shortcut and input the code into the
+            pair program.
         </p>
         <h3>4. Profit!</h3>
         <p>

@@ -5,7 +5,7 @@
     <div v-else-if="!this.validUdid"><UploadUdid /></div>
     <div v-else><JitStore /></div>
     -->
-    <div><Setup />></div>
+    <div><Setup /></div>
 </template>
 
 <script>
